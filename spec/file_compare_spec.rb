@@ -25,4 +25,26 @@ describe FileCompare do
       end
     end
   end
+
+  describe '.compare_files(left_file_path, right_file_path)' do
+    it 'should not raise a NoMethodError' do
+      expect { FileCompare.compare_files(left_matching_file, right_matching_file) }.not_to raise_error
+    end
+
+    context 'given valid file_paths' do
+      context 'given matching files' do
+        it 'should return true' do
+          f = FileCompare.compare_files(left_matching_file, right_matching_file)
+          expect(f).to be_truthy
+        end
+      end
+
+      context 'given differing files' do
+        it 'should return false' do
+          f = FileCompare.compare_files(left_matching_file, test_text_file)
+          expect(f).to be false
+        end
+      end
+    end
+  end
 end
