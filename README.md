@@ -1,8 +1,8 @@
 # FileCompare
 
-A simple gem to SHA1 fingerprint and compare files
+A simple gem to SHA256 fingerprint and compare files
 
-[![Build Status](https://travis-ci.org/jasonyost/file_compare.svg?branch=master)](https://travis-ci.org/jasonyost/file_compare)
+[![Build Status](https://travis-ci.org/jasonyost/file_compare.svg?branch=master)](https://travis-ci.org/jasonyost/file_compare) [![Gem Version](https://img.shields.io/gem/v/file_compare.svg)](https://rubygems.org/gems/file_compare)
 
 ## Installation
 
