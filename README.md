@@ -2,7 +2,7 @@
 
 A simple gem to SHA1 fingerprint and compare files
 
-[![Travis](https://img.shields.io/travis/jasonyost/file_compare.svg?maxAge=2592000)]()
+[![build status](https://travis-ci.org/jasonyost/file_compare.svg)](https://travis-ci.org/jasonyost/file_compare)
 
 ## Installation
 
