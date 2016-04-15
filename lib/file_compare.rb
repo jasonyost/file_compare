@@ -2,7 +2,7 @@ require 'file_compare/version'
 require 'digest/sha2'
 
 module FileCompare
-    # Public: Returns SHA-1 finger print of provided file
+    # Public: Returns SHA256 finger print of provided file
     #
     # file_path  - Path to the file
     #

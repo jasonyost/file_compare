@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jyost@gocortexlabs.com"]
 
   spec.summary       = %q{Gem to fingerprint and compare files.}
-  spec.description   = %q{A simple gem to SHA1 fingerprint and compare files.}
+  spec.description   = %q{A simple gem to SHA256 fingerprint and compare files.}
   spec.homepage      = "https://github.com/jasonyost/file_compare"
   spec.license       = "MIT"
 
