@@ -2,6 +2,8 @@
 
 A simple gem to SHA1 fingerprint and compare files
 
+[![Travis](https://img.shields.io/travis/jasonyost/file_compare.svg?maxAge=2592000)]()
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -31,7 +33,7 @@ FileCompare.compare_files('path/to/left/file', 'path/to/right/file')
 => true/false
 
 FileCompare.get_fingerprint('path/to/file')
-=> 9a7d961d289a78b8d20b8f2f1fbccd2fb675e3ae
+=> "b9955dc5a222d79393a9ea72f84e2381df2a9f7a82a7056ccc9ac576657c0fd0"
 ```
 
 ## Development
