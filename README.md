@@ -1,8 +1,6 @@
 # FileCompare
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/file_compare`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A simple gem to SHA1 fingerprint and compare files
 
 ## Installation
 
@@ -14,15 +12,27 @@ gem 'file_compare'
 
 And then execute:
 
-    $ bundle
+```
+$ bundle
+```
 
-Or install it yourself as:
+Or install it from RubyGems:
 
-    $ gem install file_compare
+```
+$ gem install file_compare
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'file_compare'
+
+FileCompare.compare_files('path/to/left/file', 'path/to/right/file')
+=> true/false
+
+FileCompare.get_fingerprint('path/to/file')
+=> 9a7d961d289a78b8d20b8f2f1fbccd2fb675e3ae
+```
 
 ## Development
 
@@ -32,10 +42,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/file_compare. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
+Bug reports and pull requests are welcome on GitHub at <https://github.com/jasonyost/file_compare>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
